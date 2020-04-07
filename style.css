@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@media screen and (max-width: 375px) {
+    .card-grid {
+        margin: 5em auto;
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 666px) {
+    .card-grid {
+        margin: 5em auto;
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        max-width: 1200px;
+    }
+}   
+
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: var(--Very-Light-Gray);
+    font-size: 15px;
+    padding: 2%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+    line-height: 1em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    line-height: 1em;
+    margin-top: 0em;
+}
+
+h3 {
+    font-size: 1.45em;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 0.2em;
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+
+.card {
+    box-shadow: 2.5px 5px 10px hsl(229, 6%, 66%, 35%),
+                -2.5px 5px 10px hsl(229, 6%, 66%, 35%);
+    padding: 1em;            
+    margin: 2%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.card-text {
+    text-align: left;
+    margin-bottom: 2em;
+    padding-right: 2em;
+}
+
+.card-image {
+    text-align: right;
+}
+
+.cyan {
+    border-top: 4px solid var(--Cyan);
+}
+
+.red {
+    border-top: 4px solid var(--Red);
+}
+
+.orange {
+    border-top: 4px solid var(--Orange);
+}
+
+.blue {
+    border-top: 4px solid var(--Blue);
+}
+
+
+.col1 {
+    margin: auto;  
+}
+
+.col2 {
+    margin: auto;    
+}
+
+.col3 {
+    margin: auto;      
+}
